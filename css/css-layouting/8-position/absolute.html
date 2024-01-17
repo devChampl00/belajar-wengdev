@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Belajar CSS Layouting - Position: absolute</title>
+
+        <style>
+            div {
+                width: 200px;
+                height: 200px;
+            }
+            .wrapper {
+                width: 900px;
+                height: auto;
+                margin: 20px auto;
+                border: 10px solid red;
+                position: relative;
+            }
+            .container {
+                width: 600px;
+                height: 600px;
+                margin: 20px auto;
+                border: 5px solid black;
+            }
+            .satu {
+                background-color: lightcoral;
+            }
+            .dua {
+                background-color: lightgreen;
+                position: absolute;
+                top: 0;
+                left: 0;
+                /*
+                    1. Maju satu flow/dimensi/z-index
+                    2. Ruang semula dianggap tidak ada
+                    3. Memiliki akses ke properti top, right, bottom, left
+                    4. Properti top, right, bottom, legt memberi efek margin relatif terhadap elemen parent, selama parent-nya juga non-static / dimensi yang sama
+                */
+            }
+            .tiga {
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container">
+                <div class="satu">1</div>
+                <div class="dua">2</div>
+                <div class="tiga">3</div>
+            </div>
+        </div>
+    </body>
+</html>

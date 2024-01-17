@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Belajar CSS Dasar - Selector</title>
+
+        <style>
+            /* selector tag: semua tag div*/
+            div {
+                background-color: green;
+            }
+
+            /* selector class: semua yang kelas .div */
+            .div {
+                background-color: red;
+            }
+
+            /* selector id: satu halaman biasanya id dari beberapa tag tidak pernah sama */
+            #div {
+                background-color: blue;
+            }
+
+            /* styling ke beberapa tag */
+            h2,
+            li {
+                color: blue;
+            }
+
+            /* spesific selecor */
+            div p {
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div>Div dengan selector tag / elemen HTML</div>
+        <br />
+
+        <div class="div">Div dengan selector atribut class</div>
+        <br />
+
+        <div id="div">Div dengan selector atribut id</div>
+        <br />
+
+        <h2>Yang sudah dipelajari sejauh ini :</h2>
+        <ul>
+            <li>penulisan css</li>
+            <li>font-styling</li>
+            <li>text-styling</li>
+            <li>background</li>
+        </ul>
+        <br />
+
+        <div>
+            <p>Ini tag p di dalam tag div</p>
+        </div>
+    </body>
+</html>

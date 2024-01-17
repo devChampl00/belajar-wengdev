@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Belajar CSS Layouting - Overflow</title>
+
+        <style>
+            div {
+                display: inline-block;
+            }
+            div.satu {
+                background-color: burlywood;
+                width: 200px;
+                height: 200px;
+                overflow: hidden;
+            }
+            div.dua {
+                background-color: aqua;
+                width: 200px;
+                height: 200px;
+                overflow: auto;
+            }
+            div.tiga {
+                background-color: silver;
+                width: 200px;
+                height: 200px;
+                overflow: scroll;
+            }
+            div.empat {
+                background-color: chartreuse;
+                display: block;
+                width: 200px;
+            }
+            div.lima {
+                background-color: aquamarine;
+                width: 200px;
+                height: 200px;
+                overflow: visible;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="satu">
+            <h4>Hello, world!</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nostrum consectetur dignissimos sequi cumque, error maxime ad, fugit doloremque aut mollitia repellendus quas quo ab eum, eveniet molestiae aliquam officia autem
+            voluptate magnam ut molestias dicta veniam. Harum distinctio, magnam consectetur provident excepturi omnis beatae, cum expedita dignissimos iste ex dolorum modi ab, quisquam obcaecati ratione reprehenderit iusto incidunt quam.
+        </div>
+
+        <div class="dua">
+            <h4>Hello, world!</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nostrum consectetur dignissimos sequi cumque, error maxime ad, fugit doloremque aut mollitia repellendus quas quo ab eum, eveniet molestiae aliquam officia autem
+            voluptate magnam ut molestias dicta veniam. Harum distinctio, magnam consectetur provident excepturi omnis beatae, cum expedita dignissimos iste ex dolorum modi ab, quisquam obcaecati ratione reprehenderit iusto incidunt quam.
+        </div>
+
+        <div class="tiga">
+            <h4>Hello, world!</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+
+        <div class="empat">
+            <h4>Hello, world!</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nostrum consectetur dignissimos sequi cumque, error maxime ad, fugit doloremque aut mollitia repellendus quas quo ab eum, eveniet molestiae aliquam officia autem
+            voluptate magnam ut molestias dicta veniam. Harum distinctio, magnam consectetur provident excepturi omnis beatae, cum expedita dignissimos iste ex dolorum modi ab, quisquam obcaecati ratione reprehenderit iusto incidunt quam.
+        </div>
+
+        <div class="lima">
+            <h4>Hello, world!</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nostrum consectetur dignissimos sequi cumque, error maxime ad, fugit doloremque aut mollitia repellendus quas quo ab eum, eveniet molestiae aliquam officia autem
+            voluptate magnam ut molestias dicta veniam. Harum distinctio, magnam consectetur provident excepturi omnis beatae, cum expedita dignissimos iste ex dolorum modi ab, quisquam obcaecati ratione reprehenderit iusto incidunt quam.
+        </div>
+    </body>
+</html>

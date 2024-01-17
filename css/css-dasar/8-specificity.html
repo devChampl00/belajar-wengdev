@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Belajar CSS Dasar - Spesificity</title>
+
+        <style>
+            h1 {
+                color: red;
+            }
+            h1 {
+                color: green;
+            }
+
+            #p {
+                color: red;
+            }
+            .p {
+                color: green;
+            }
+            p {
+                color: blue;
+            }
+
+            #link {
+                color: red;
+            }
+            .link {
+                color: green;
+            }
+            a {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p class="p" id="p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse doloribus soluta voluptatem, ab voluptatibus accusamus quisquam inventore placeat ad veritatis quidem reiciendis error et consequatur saepe rerum quos? Quis, quaerat.
+            <a href="#" class="link" id="link" style="color: yellow">selengkapnya</a>
+        </p>
+    </body>
+</html>

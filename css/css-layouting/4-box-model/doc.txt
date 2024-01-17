@@ -1,0 +1,16 @@
+1. Margin
+    - suatu elemen diberikan margin-top > 1 akan sedikit ke bawah dan memberikan efek yang sama pada elemen setelahnya
+    - negatif margin memberikan efek tertarik pada elemen sesuai arah diberikannya style
+    - overlapping : 2 elemen yang sama sama memiliki margin secara horizontal akan ditambahkan nilai marginnya, sedang yang vertikal akan dipakai elemen yang nilai marginnya paling besar
+    - untuk menempatkan elemen di tengah-halaman menggunakan margin dengan cara memberikan nilai auto untuk sisi kiri dan kanan elemen
+
+2. Padding
+    - padding menambah ukuran elemen
+    - padding tidak bisa diberikan nilai negatif dan auto
+
+3. Border
+    - border juga menambah ukuran elemen
+    - border tidak bisa diberikan nilai negatig
+    - format style 'border: width style color;'
+    - border juga bisa diatur untuk setiap sisinya
+    -alternatif untuk menjaga lebar elemen adalah dengan menambahkan properti 'box-sizing: border-box;' untuk style elemennya, dengan bergitu lebar elemen tetapi terjaga namun ruang untuk konten/isi elemen yang semakin sempit

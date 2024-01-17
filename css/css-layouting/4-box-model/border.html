@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Belajar CSS Layouting - Box Model: Border</title>
+
+        <style>
+            div {
+                margin: 30px auto;
+            }
+            .satu {
+                background-color: lightcoral;
+                width: 200px;
+                height: 200px;
+                padding: 20px;
+
+                border-top: 5px solid black;
+                border-right: 5px dashed black;
+                border-bottom: 5px double black;
+                border-left: 5px dotted black;
+            }
+            .dua {
+                background-color: lightgreen;
+                width: 200px;
+                height: 200px;
+
+                padding: 30px 30px 0 30px;
+                box-sizing: border-box;
+                overflow: auto;
+            }
+            .tiga {
+                background-color: lightblue;
+                width: 200px;
+                height: 200px;
+
+                border: 2px dashed darkblue;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="satu">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi distinctio ipsa earum rem accusamus ut exercitationem, obcaecati voluptatum saepe repellendus tenetur veritatis. Soluta voluptatibus eaque saepe facere
+            consectetur perferendis suscipit.
+        </div>
+        <div class="dua">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore repudiandae facilis animi quasi ipsa consequatur molestias totam iure cupiditate. Soluta officia consectetur, quia ab tenetur ex cupiditate eaque sint.
+        </div>
+        <div class="tiga">3</div>
+    </body>
+</html>

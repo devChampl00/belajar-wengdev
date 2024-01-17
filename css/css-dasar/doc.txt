@@ -1,0 +1,73 @@
+1. Penulisan css :
+    a. Inline tag html
+    b. Embed atau Di dalam tag style <style></style>
+    c. External css
+    format penulisan css:
+        selector { properti: value; }
+    ex:
+        h1 {
+            font-size: 24px;
+            color: blue;
+    }
+
+
+2. Font Styling
+    - font-family
+    - font-size
+    - font-weight
+    - font-variant
+    - font-style
+
+3. Text Styling
+    - color : nama warna, hexadecimal, kadar rgb
+    - text-align
+    - text-indent
+    - text-decoration
+    - text-transform
+    - letter-spacing
+    - word-spacing
+
+4. Background
+    - background-color
+    - background-image
+    - background-postition
+    - background-repeat
+
+5. Selector
+    - elemen html
+    - id
+    - class
+    - complex selector
+
+6. Pseudo-class
+    - :link : khusus untuk tag anchor/link
+    - :visited : khusus untuk tag anchor/link
+    - :hover
+    - :active
+    - parent and child elemen :
+        - :first-child
+        - :last-child
+        - :nth-child(n) : n merupakan angka dari elemen ke berapa terhadap parent-nya
+    - :first-of-type
+    - :last-of-type
+
+7. Inheritance
+    poperti yang diwariskan kecuali tag anchor/link :
+    - color
+    - font
+    - letter-spacing
+    - line-height
+    - list-style
+    - text-align, text-transform, text-indent
+    - visibility
+    - whitespace
+    khusus untuk tag link harus manual ditulis 'nama-properti: inherit;'
+
+8. Specificity
+    Seberapa ngefek styling dengan beberapa selector
+    - bobot / tingkat spesifik :
+        - inline tag / di atribut style = 1000
+        - selector id = 100
+        - selector class = 10
+        - selector tag = 1
+    - urutuan : yang akan dijalankan yang lebih akhir jika terdapat selector yang sama

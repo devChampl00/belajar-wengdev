@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Belajar CSS Layouting - Display</title>
+
+        <style>
+            div:first-of-type {
+                background-color: blue;
+            }
+            div:last-of-type {
+                background-color: red;
+            }
+            span:first-of-type {
+                background-color: blue;
+            }
+            span:last-of-type {
+                background-color: red;
+            }
+            h1 {
+                background-color: red;
+            }
+            h2 {
+                background-color: red;
+            }
+            h3 {
+                background-color: red;
+            }
+            p {
+                background-color: green;
+            }
+            ul {
+                background-color: blue;
+            }
+            ul li {
+                background-color: purple;
+            }
+            a {
+                background-color: yellow;
+            }
+            form {
+                background-color: green;
+            }
+            label {
+                background-color: chocolate;
+            }
+            input {
+                background-color: gold;
+                display: inline-block;
+                width: 300px;
+                height: 35px;
+            }
+
+            .gambar {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Div & span -->
+        <div>Div 1</div>
+        <div>Div 2</div>
+        <span>Span1</span>
+        <span>Span2</span>
+
+        <!-- Heading -->
+        <h1>Hello ,world!</h1>
+        <h2>Hello ,world!</h2>
+        <h3>Hello ,world!</h3>
+
+        <!-- Paragraf -->
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem facere beatae animi esse repellendus, obcaecati sequi veniam impedit minus nemo ducimus soluta, sunt odio necessitatibus ea, sit pariatur accusantium?
+            Perspiciatis.
+        </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem facere beatae animi esse repellendus, obcaecati sequi veniam impedit minus nemo ducimus soluta, sunt odio necessitatibus ea.</p>
+
+        <!-- List -->
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+            <li>List item 4</li>
+            <li>List item 5</li>
+        </ul>
+
+        <!-- Hyperlink -->
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+
+        <!-- Form -->
+        <form action="">
+            <label for="">Username</label>
+            <input type="text" />
+
+            <label for="">Password</label>
+            <input type="password" />
+        </form>
+
+        <!-- Image -->
+        <img src="img/altumcode-P2SkP_PXhlU-unsplash.jpg" alt="" width="200px" />
+        <img src="img/altumcode-P2SkP_PXhlU-unsplash.jpg" alt="" width="200px" class="gambar" />
+    </body>
+</html>

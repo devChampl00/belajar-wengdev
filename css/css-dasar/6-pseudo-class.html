@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Belajar CSS Dasar - Pseudo-class</title>
+
+        <style>
+            a:link {
+                color: red;
+            }
+            a:hover {
+                color: purple;
+                text-decoration: none;
+            }
+            a:active {
+                color: blue;
+                font-size: 20px;
+            }
+            a:visited {
+                font-style: bold;
+                font-size: 18px;
+            }
+
+            ul li:first-child {
+                color: red;
+            }
+            ul li:nth-child(3) {
+                color: green;
+            }
+            ul li:last-child {
+                color: blue;
+            }
+
+            p:first-of-type {
+                color: red;
+            }
+            p:last-of-type {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#">Ini link</a>
+        <ul>
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+            <li>list 4</li>
+            <li>list 5</li>
+        </ul>
+        <p>Ini contoh paragraf 1</p>
+        <p>Ini contoh paragraf 2</p>
+        <p>Ini contoh paragraf 3</p>
+    </body>
+</html>

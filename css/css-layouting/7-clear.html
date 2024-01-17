@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Belajar CSS Layouting - Float</title>
+        <style>
+            .container {
+                width: 600px;
+                border: 1px solid black;
+                margin: 20px auto;
+                padding: 5px;
+            }
+            img {
+                width: 200px;
+                float: left;
+                margin: 0 15px 10px 0;
+            }
+            p {
+                margin: 0;
+                padding: 0;
+            }
+            .oren {
+                width: 200px;
+                height: 200px;
+                background-color: orange;
+                float: left;
+            }
+            .ungu {
+                width: 200px;
+                height: 200px;
+                background-color: purple;
+                float: left;
+            }
+            .ijo {
+                width: 200px;
+                height: 200px;
+                background-color: green;
+                float: left;
+            }
+
+            /* .container {
+                overflow: auto;
+            } */
+            .clear {
+                clear: both;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img src="img/code.png" alt="alternatif" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nostrum nisi iste, blanditiis hic tempore, corrupti dolores aut dolorum maiores aperiam quibusdam harum expedita eius voluptate vero mollitia unde earum aliquam
+                suscipit! Voluptate minus expedita, et consequatur rem, maiores modi possimus in rerum saepe recusandae dolorem! Necessitatibus voluptates nulla enim natus vero facilis magnam id atque cumque animi ullam eligendi possimus,
+                vel hic rem aut inventore.
+            </p>
+            <div class="clear"></div>
+        </div>
+
+        <div class="container">
+            <div class="oren"></div>
+            <div class="ungu"></div>
+            <div class="ijo"></div>
+            <div class="clear"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+CSS Layouting merupakan teknik styling untuk menempatkan dan mempososisikan suatu elemen.
+
+1. Display
+    - inline
+    - block
+    - inline-block
+    - none
+    khusus untuk tag img nilai default untuk properti display-nya inline tetapi bisa diatur ukuranlebar dan tinggi-nya
+
+2. Dimension
+    - width
+    - height
+    - max-width
+    - max-height
+    untuk satuan nilainya bisa px, %, em, rem, in, cm, mm, pt, dan pc
+
+3. Overflow
+    - visible
+    - hidden
+    - scroll
+    - auto
+    nilai default : visible
+
+4. Box Model
+    - margin : area di luar elemen
+    - border : batas elemen
+    - padding : area antara di dalam elemen antara border dan content
+    - content : isi elemen
+    margin, border, dan padding bisa diatur untuk setiap sisinya, dan khusus untuk border memiliki beberapa properti khusus seperti radius, weight, color dan style
+
+5. CSS Reset
+    Teknik umum untuk mengosongkan nilai  dari properti margin dan padding pada beberapa elemen yang secara default diberikan oleh CSS
+
+6. Float
+    Memungkinkan kita untuk memaksa sebuah elemen untuk diposisikan di sebelah kiri atau kanan, efeknya membuat elemen keluar dari flownya.
+
+7. Clear : membersihkan efek float
+    - overflow: auto; pada container
+    - clear: left, right, both; div kosong setelah elemen float
+    - micro clearfix
+
+8. Position
+    - static: default niali untuk setiap elemen / tidak diatur
+    - relative
+    - absolute
+    - fixed
+
+9. Z-index
+    Jika x adalah sumbu horizontal, y sumbul vertikal, maka z adalah sumbu depan-belakang yang seolah membuat halaman website kita tida dimensi dan membuat kita mengatur seberapa depan atau belakang tumpukan elemen yang memiliki properti postition non-static.
+    Semakin tinggi nilai z-index nya semakin depan elemen tersebut

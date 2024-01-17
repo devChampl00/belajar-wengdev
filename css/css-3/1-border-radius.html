@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Belajar CSS3 - Border Radius</title>
+
+        <style>
+            div {
+                margin: 20px;
+                width: 150px;
+                height: 150px;
+                display: inline-block;
+                border: 10px solid black;
+                background-color: lightcoral;
+            }
+            .satu {
+                border-radius: 10px;
+            }
+            .dua {
+                border-radius: 50px 0 50px 0;
+            }
+            .tiga {
+                border-radius: 50%;
+            }
+            .empat {
+                height: 75px;
+                border-radius: 100px 100px 0 0;
+            }
+            .lima {
+                height: 75px;
+                border-radius: 0 0 100px 100px;
+            }
+            .enam {
+                border-radius: 10px 50% 50% 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="satu"></div>
+        <div class="dua"></div>
+        <div class="tiga"></div>
+        <div class="empat"></div>
+        <div class="lima"></div>
+        <div class="enam"></div>
+    </body>
+</html>

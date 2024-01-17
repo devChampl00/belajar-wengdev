@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Belajar CSS Layouting - Z-index</title>
+
+        <style>
+            div {
+                width: 200px;
+                height: 200px;
+            }
+            .container {
+                width: 600px;
+                height: 600px;
+                margin: 20px auto;
+                border: 5px solid black;
+                position: relative;
+            }
+            .satu {
+                background-color: lightcoral;
+                top: 0;
+                left: 0;
+                position: absolute;
+                z-index: 999;
+            }
+            .dua {
+                background-color: lightgreen;
+                top: 50px;
+                left: 50px;
+                position: absolute;
+                z-index: -999;
+            }
+            .tiga {
+                background-color: lightblue;
+                top: 100px;
+                left: 100px;
+                position: absolute;
+                z-index: 99;
+            }
+            .empat {
+                background-color: salmon;
+                top: 150px;
+                left: 150px;
+                position: absolute;
+            }
+            .lima {
+                background-color: violet;
+                top: 200px;
+                left: 200px;
+                position: absolute;
+            }
+            /* urutan depan/belakang elemen sesuai besar nilai z-index, jika tidak diatur maka elemen terakhir yang paling maju/depan */
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="satu">1</div>
+            <div class="dua">2</div>
+            <div class="tiga">3</div>
+            <div class="empat">4</div>
+            <div class="lima">5</div>
+        </div>
+    </body>
+</html>
